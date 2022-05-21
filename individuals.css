@@ -268,7 +268,7 @@ html{
 }
 
 /* #main{
-    height: 20vh;
+    height: 30rem;
 } */
 
 .main{
@@ -321,11 +321,10 @@ html{
 }
 
 .btn-container{
-    width: 100%;
-    display: flex;
-    /* justify-content: center; */
-    margin: 1rem auto;
-    overflow-x: scroll;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 1.3rem;
 }
 
 .btn-container button{
