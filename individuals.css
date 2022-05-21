@@ -337,7 +337,6 @@ html{
 
 .btn-container button:focus{
     font-weight:bold ;
-    text-transform: uppercase;
 }
 
 .article-text{
